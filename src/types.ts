@@ -39,6 +39,21 @@ export interface Job {
   bar_summary?: string;
 }
 
+export interface Fellowship {
+  id: string;
+  name: string;             // 全名
+  provider: string;         // Google Research / Royal Society / 等
+  stage: "phd-year-1" | "phd-year-2-3" | "postdoc" | "any";
+  annual_value: string;     // 描述性: "~$30K + tuition + travel"
+  duration: string;         // "2 years" / "5+3 years" / "rolling"
+  eligibility: string;      // 关键 filter (国籍 / venue / 申请方式)
+  deadline_window: string;  // "Mar-Apr" / "Sept-Oct" / "rolling"
+  fit_tier: 1 | 2 | 3;
+  url: string;
+  notes: string;            // leverage / 推荐何时申
+  tags: string[];
+}
+
 export interface Connection {
   id: string;
   name: string;

@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { industryJobs, academiaJobs, connections } from "./data/jobs";
+import { industryJobs, academiaJobs, connections, fellowships } from "./data/jobs";
 import { Job, Connection, TabType, SortType } from "./types";
 import { WorldMap } from "./WorldMap";
 import "./App.css";
@@ -173,12 +173,12 @@ function GroupedJobs({ jobs }: { jobs: Job[] }) {
   );
 }
 
-type PageView = "positioning" | "timeline" | "jobs";
+type PageView = "positioning" | "timeline" | "jobs" | "funding";
 
 function App() {
   const [pageView, setPageView] = useState<PageView>(() => {
     const hash = window.location.hash.replace("#", "");
-    if (hash === "timeline" || hash === "jobs") return hash;
+    if (hash === "timeline" || hash === "jobs" || hash === "funding") return hash;
     return "positioning";
   });
   // Keep URL hash in sync so a refresh keeps the view and users can share/bookmark.
@@ -402,6 +402,12 @@ function App() {
           onClick={() => setPageView("jobs")}
         >
           💼 岗位 Dashboard <span className="page-tab-sub">{stats.total} 个岗位 + 地图</span>
+        </button>
+        <button
+          className={`page-tab ${pageView === "funding" ? "active" : ""}`}
+          onClick={() => setPageView("funding")}
+        >
+          💰 Fellowships <span className="page-tab-sub">{fellowships.length} 个 funding</span>
         </button>
       </nav>
 
@@ -755,6 +761,82 @@ function App() {
         )}
       </main>
       </>)}
+
+      {pageView === "funding" && (
+      <section className="positioning-card">
+        <h2>💰 Fellowships / Funding / Scholarships — {fellowships.length} 个 verified</h2>
+        <p className="tier-meta">
+          PhD-stage 申请窗 (Y2/Y3, 2026-2028) + Postdoc 申请窗 (2027-2028 for 2028-29 start) + Compute/API credits (rolling) + Travel awards。<br/>
+          ⭐ 标记的是 CV 信号最强 / Imperial-friendly 通道。⚠ 标记的是国籍/裁员风险。
+        </p>
+
+        {(["phd-year-2-3", "postdoc", "any"] as const).map((stage) => {
+          const items = fellowships.filter(f => f.stage === stage);
+          if (items.length === 0) return null;
+          const stageLabel = stage === "phd-year-2-3" ? "🎓 PhD-stage (Y2/Y3 申)" : stage === "postdoc" ? "🚀 Postdoc-stage (2027-2028 申, 2028-29 start)" : "💻 Any-stage (compute / API / travel grants)";
+          return (
+            <div key={stage} className="tier-summary" style={{ marginBottom: "1em" }}>
+              <h3>{stageLabel} — {items.length} 个</h3>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.88em" }}>
+                <thead>
+                  <tr style={{ background: "#f1f5f9" }}>
+                    <th style={{ textAlign: "left", padding: "0.4em" }}>Fellowship</th>
+                    <th style={{ textAlign: "left", padding: "0.4em" }}>Provider</th>
+                    <th style={{ textAlign: "left", padding: "0.4em" }}>Value</th>
+                    <th style={{ textAlign: "left", padding: "0.4em" }}>Duration</th>
+                    <th style={{ textAlign: "left", padding: "0.4em" }}>Deadline</th>
+                    <th style={{ textAlign: "left", padding: "0.4em" }}>Tier</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {items.sort((a, b) => a.fit_tier - b.fit_tier).map(f => (
+                    <tr key={f.id} style={{ borderBottom: "1px solid #e2e8f0" }}>
+                      <td style={{ padding: "0.5em", verticalAlign: "top" }}>
+                        <a href={f.url} target="_blank" rel="noopener noreferrer" style={{ fontWeight: 600 }}>{f.name}</a>
+                        <div style={{ fontSize: "0.85em", color: "#64748b", marginTop: "0.2em" }}>{f.notes}</div>
+                        <div style={{ fontSize: "0.78em", color: "#94a3b8", marginTop: "0.2em" }}>
+                          eligibility: {f.eligibility}
+                        </div>
+                        <div style={{ marginTop: "0.3em" }}>
+                          {f.tags.map(t => (
+                            <span key={t} style={{ display: "inline-block", padding: "0.1em 0.5em", margin: "0.1em 0.2em 0.1em 0", borderRadius: "0.3em", background: "#e0e7ff", color: "#3730a3", fontSize: "0.72em" }}>{t}</span>
+                          ))}
+                        </div>
+                      </td>
+                      <td style={{ padding: "0.5em", verticalAlign: "top", fontSize: "0.85em" }}>{f.provider}</td>
+                      <td style={{ padding: "0.5em", verticalAlign: "top", fontSize: "0.85em" }}>{f.annual_value}</td>
+                      <td style={{ padding: "0.5em", verticalAlign: "top", fontSize: "0.85em" }}>{f.duration}</td>
+                      <td style={{ padding: "0.5em", verticalAlign: "top", fontSize: "0.85em" }}>{f.deadline_window}</td>
+                      <td style={{ padding: "0.5em", verticalAlign: "top" }}>
+                        <span style={{
+                          display: "inline-block",
+                          padding: "0.15em 0.5em",
+                          borderRadius: "0.3em",
+                          fontWeight: 700,
+                          background: f.fit_tier === 1 ? "#fee2e2" : f.fit_tier === 2 ? "#dcfce7" : "#dbeafe",
+                          color: f.fit_tier === 1 ? "#991b1b" : f.fit_tier === 2 ? "#166534" : "#1e40af",
+                        }}>{f.fit_tier === 1 ? "冲刺" : f.fit_tier === 2 ? "匹配" : "保底"}</span>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          );
+        })}
+
+        <div className="tier-summary tier-1-card">
+          <h3>📌 未来 12 个月（2026-05-14 起）TOP 5 必投</h3>
+          <ol style={{ margin: "0.3em 0 0.3em 1.5em" }}>
+            <li><b>SIGCHI Gary Marsden Travel Award</b> — rolling 9th of odd-month。Low effort, 每 CHI/UIST 都申。</li>
+            <li><b>Anthropic Fellows</b> — May/July 2026 cohort 还有 slots。$200K stipend + $60K compute 4mo = VBVR/MindFrame 加速器。</li>
+            <li><b>AWS Cloud Credits + Cohere Catalyst Grants</b> — rolling, 2 周内可完成。直接给 VBVR/AD glove pipeline 加 compute。</li>
+            <li><b>MSR PhD Fellowship EMEA</b> — Sept-Oct 2026 cycle。Imperial 提名， Cambridge UK mentor handoff。最强单 PhD-stage CV 信号。</li>
+            <li><b>Apple Scholars AIML</b> — Sept-Oct internal Imperial nomination。Voice + Health 双对口。和 MSR/Google 同档 signal。</li>
+          </ol>
+        </div>
+      </section>
+      )}
 
     </div>
   );
