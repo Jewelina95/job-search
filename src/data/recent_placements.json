@@ -1,0 +1,371 @@
+{
+  "_meta": {
+    "generated": "2026-05-14",
+    "method": "WebSearch + WebFetch on official lab people pages, personal websites, dept news. Empty pre_stop = direct from PhD. Citation counts are approximate Google Scholar snapshots at hire time or current; integer only.",
+    "schema": "{name, year, phd, pre_stop, area, citations, note}",
+    "data_unavailable_marker": "When public-web searches did not surface verifiable named placements, the entry is omitted or marked data_unavailable_public_search rather than fabricated."
+  },
+
+  "intern-deepmind-student-researcher-2026": {
+    "recent_placements": "data_unavailable_public_search — DeepMind does not publish a comprehensive intern list. Verified individual intern profiles surface mainly via LinkedIn snapshots and paper acknowledgements rather than lab pages.",
+    "bar_summary_upgrade": "DeepMind Student Researcher program is highly competitive (12-24 wk, ~4 days/wk). Selection signal: prior NeurIPS/ICML/CVPR pub OR co-authored paper with Google DeepMind employee. Health/multimodal team explicitly recruits PhDs with biomedical AI + LLM/VLM publication track records.",
+    "sources": ["https://deepmind.google/student-researcher-program/", "https://job-boards.greenhouse.io/deepmind/jobs/7016439"]
+  },
+
+  "intern-deepmind-research-intern-phd-2026": {
+    "recent_placements": "data_unavailable_public_search",
+    "bar_summary_upgrade": "DeepMind PhD Research Intern bar: prior top-venue publication record required; the Cambridge Research Ready scheme is the alt-pathway for underrepresented backgrounds. For health/multimodal: pre-existing collaboration or co-authorship with a DM scientist materially helps.",
+    "sources": ["https://deepmind.google/student-researcher-program/"]
+  },
+
+  "intern-msr-cambridge-uk-hud": {
+    "recent_placements": [
+      {"name": "Advait Sarkar", "year": "RS 2017→Sr. Researcher", "phd": "Cambridge CS (Hosking/Blackwell)", "pre_stop": "Cambridge PhD", "area": "AI for knowledge work / end-user programming", "citations": 4000, "note": "Affiliated lecturer, Cambridge + UCL"},
+      {"name": "Sean Rintel", "year": "Sr. Principal RM (HXD)", "phd": "Rutgers Comm. Studies", "pre_stop": "Univ. Queensland lecturer", "area": "Hybrid meetings / collaboration", "citations": 3500, "note": "HXD group manager under Sellen"},
+      {"name": "Abigail Sellen", "year": "VP & Dist. Scientist (lead)", "phd": "UCSD CogSci (Norman)", "pre_stop": "Xerox EuroPARC + HP Labs", "area": "Human-AI experience design", "citations": 22000, "note": "Group head"}
+    ],
+    "bar_summary_upgrade": "MSR Cambridge HXD/HUD interns historically come from Cambridge CS, UCL HCI, ETH, Stanford HCI — selection emphasises rigorous qualitative HCI + CHI/CSCW publication portfolio over pure ML. Recent senior hires (Sarkar) show the lab values end-user programming + AI-for-knowledge-work crossover. Sellen mentors heavily via Cambridge affiliated lectureships.",
+    "sources": ["https://www.microsoft.com/en-us/research/people/asellen/", "https://www.microsoft.com/en-us/research/people/advait/", "https://www.microsoft.com/en-us/research/people/serintel/"]
+  },
+
+  "intern-msr-health-futures-cambridge-uk": {
+    "recent_placements": [
+      {"name": "Hoifung Poon", "year": "GM (lead)", "phd": "UW CSE (Domingos)", "pre_stop": "MSR Redmond researcher", "area": "Biomedical NLP / multimodal precision health", "citations": 27000, "note": "Lab head"},
+      {"name": "Tristan Naumann", "year": "Principal Researcher", "phd": "MIT EECS (Szolovits)", "pre_stop": "MIT CSAIL", "area": "Clinical NLP / EHR", "citations": 10000, "note": "MIMIC critical-care NLP origins"},
+      {"name": "Sheng Zhang", "year": "Principal Researcher", "phd": "JHU CLSP (Van Durme)", "pre_stop": "MSR researcher", "area": "Biomedical LLM / multimodal", "citations": 6000, "note": "BioGPT / LLaVA-Med co-author"},
+      {"name": "Yu Gu", "year": "Principal Researcher (→ ByteDance)", "phd": "Peking Univ", "pre_stop": "MSR researcher", "area": "Biomedical foundation models", "citations": 5500, "note": "Moved to ByteDance 2024"},
+      {"name": "Naoto Usuyama", "year": "Sr. Researcher", "phd": "UW (industry-affiliated)", "pre_stop": "MSR", "area": "Medical imaging + LLM", "citations": 4000, "note": "LLaVA-Med lead"},
+      {"name": "Hanwen Xu", "year": "Sr. Researcher", "phd": "UW Paul G. Allen (Ma Jianzhu)", "pre_stop": "UW PhD", "area": "Multimodal biomedical AI", "citations": 1500, "note": "Recent direct-from-PhD"}
+    ],
+    "bar_summary_upgrade": "MSR Health Futures hires center on biomedical NLP + multimodal foundation models — bar = PhD from UW/MIT/JHU/CMU/PKU with strong publication record in clinical NLP, medical imaging+LLM, or computational biology. Interns typically have a first-author top-venue paper (ACL/EMNLP/NeurIPS/ICML/Nature-tier) and an established collaboration with at least one MSR scientist before the offer. Jewelina's wearable-multimodal-health angle fits if she frames as 'multimodal precision health'.",
+    "sources": ["https://www.microsoft.com/en-us/research/people/hoifung/", "https://www.microsoft.com/en-us/research/lab/microsoft-health-futures/publications/"]
+  },
+
+  "intern-adobe-research-2026": {
+    "recent_placements": [
+      {"name": "Bryan Wang", "year": "RS 2023", "phd": "Toronto DGP (Tovi Grossman)", "pre_stop": "Toronto PhD", "area": "Video/audio creative AI", "citations": 1200, "note": "Direct from PhD"},
+      {"name": "Hugo Flores Garcia", "year": "RS 2024 (audio)", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Music/audio generative", "citations": 600, "note": "Interactive Audio Lab alum"},
+      {"name": "Prem Seetharaman", "year": "Sr. RS", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Audio source separation", "citations": 3500, "note": "Descript co-founder background"},
+      {"name": "Jane Hoffswell", "year": "RS", "phd": "UW (Heer)", "pre_stop": "UW PhD", "area": "Data visualization", "citations": 1500, "note": "Direct from PhD"},
+      {"name": "Nanxuan Zhao", "year": "RS London", "phd": "CUHK (Rynson Lau)", "pre_stop": "Bath postdoc", "area": "Image generation / style", "citations": 2500, "note": "Adobe London"},
+      {"name": "Peng Dai", "year": "RS", "phd": "HKU", "pre_stop": "Industry RS", "area": "Vision / 3D generation", "citations": 3500, "note": "London + San Jose"}
+    ],
+    "bar_summary_upgrade": "Adobe Research hires direct-from-PhD aggressively in HCI+creative AI (Bryan Wang, Hoffswell) and in audio/video generative (Flores Garcia, Seetharaman from Northwestern). London office leans more vision/image-generation (Nanxuan Zhao, Peng Dai). Bar = 1-2 top-venue first-author papers (CHI/UIST/SIGGRAPH/NeurIPS) with a clear 'creator tool' angle + Adobe internship typically precedes the RS offer.",
+    "sources": ["https://research.adobe.com/people/", "https://www.dgp.toronto.edu/~bryanw/", "https://interactiveaudiolab.github.io/people/"]
+  },
+
+  "intern-apple-aiml-research-intern": {
+    "recent_placements": [
+      {"name": "Mary Beth Kery", "year": "RS 2021", "phd": "CMU HCII (Bigham/Myers)", "pre_stop": "CMU PhD", "area": "Programming tools + AI", "citations": 1800, "note": "Direct from PhD"},
+      {"name": "Jason Wu", "year": "RS 2023→Purdue AP 2025", "phd": "CMU HCII (Bigham)", "pre_stop": "Apple HCMI", "area": "Accessibility / UI understanding", "citations": 1100, "note": "Apple RS → faculty pipeline"},
+      {"name": "Abdelkareem Bedri", "year": "Sr. RS + Manager", "phd": "CMU HCII (Goel/Harrison)", "pre_stop": "CMU PhD", "area": "Wearable sensing", "citations": 2200, "note": "SMASH alum"},
+      {"name": "Fatemeh Pishdadian", "year": "Research Eng. (audio)", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Audio ML", "citations": 600, "note": ""},
+      {"name": "Mike Merrill", "year": "ML Research Intern (PhD)", "phd": "UW (Althoff)", "pre_stop": "UW PhD candidate", "area": "Wearable health LLM", "citations": 1500, "note": "Apple Health AI intern → Anthropic"}
+    ],
+    "bar_summary_upgrade": "Apple AIML Health/HCMI intern pipeline runs through CMU HCII (Bigham/Goel/Harrison advisees dominate) + UW Allen + Northwestern audio. Bar = first-author CHI/UIST/CVPR paper + sensing-on-device focus. The CMU HCII → Apple → faculty (Jason Wu Purdue) pipeline is well-trodden. Jewelina's wearable-health angle aligns with Bedri/Merrill template.",
+    "sources": ["https://hcii.cmu.edu/people/alumni/phd", "https://jasonwunix.com/", "https://mikemerrill.io/", "https://marybethkery.com/"]
+  },
+
+  "intern-anthropic-fellows-2026": {
+    "recent_placements": "data_unavailable_public_search — Anthropic does not publish full Fellows cohort lists. ~32 places per round (Oct 2025+), ~40% convert to full-time. Past Fellows came from physics, math, CS, cybersecurity; PhD not required.",
+    "bar_summary_upgrade": "Anthropic Fellows bar is lower than full-time RS hire — no PhD required, no ML pubs required. What matters: strong coding/technical background + demonstrated AI-safety interest (e.g., published blog posts, alignment-forum activity, or prior alignment research). ~40% conversion to FT means it functions as an extended interview. First cohort: 80% produced papers on agentic misalignment, subliminal learning, ASL3 jailbreaks.",
+    "sources": ["https://alignment.anthropic.com/2024/anthropic-fellows-program/", "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/"]
+  },
+
+  "intern-hippocratic-speech-synthesis": {
+    "recent_placements": [
+      {"name": "Subho Mukherjee", "year": "Co-founder/CSO", "phd": "Max Planck Institute Germany", "pre_stop": "MSR researcher", "area": "Multimodal LLM/speech", "citations": 18000, "note": "Speech+voice lead"},
+      {"name": "Debajyoti Datta", "year": "Co-founder/RS", "phd": "UVA (ML)", "pre_stop": "UVA PhD", "area": "Healthcare LLM", "citations": 1500, "note": ""},
+      {"name": "Steven (Jiayuan) Ding", "year": "RS", "phd": "PhD (industry)", "pre_stop": "Industry", "area": "Healthcare LLM/voice agents", "citations": 800, "note": "LinkedIn surfaced"}
+    ],
+    "bar_summary_upgrade": "Hippocratic AI research bar = senior researchers with speech/LLM PhDs + healthcare deployment experience (Mukherjee/Datta both came from established research positions, not direct-from-PhD). Speech synthesis intern angle: a strong TTS/voice-LLM first-author publication + clinical-safety alignment work would stand out. Smaller team means fewer slots but higher visibility.",
+    "sources": ["https://hippocraticai.com/team/", "https://www.linkedin.com/in/jiayuand/"]
+  },
+
+  "intern-cohere-research-2026": {
+    "recent_placements": [
+      {"name": "Marzieh Fadaee", "year": "Lab head 2025", "phd": "Univ. of Amsterdam (Monz)", "pre_stop": "Zeta Alpha", "area": "Multilingual NLP", "citations": 4500, "note": "Cohere Labs lead"},
+      {"name": "Julia Kreutzer", "year": "Sr. RS", "phd": "Heidelberg Univ.", "pre_stop": "Google Research", "area": "Multilingual NMT", "citations": 3500, "note": ""},
+      {"name": "Joelle Pineau", "year": "CAIO Aug 2025", "phd": "CMU Robotics (Thrun)", "pre_stop": "Meta FAIR VP, McGill prof", "area": "RL / dialogue", "citations": 35000, "note": "Senior leadership hire"},
+      {"name": "Sara Hooker", "year": "Cohere For AI founder", "phd": "MS only (industry)", "pre_stop": "Google Brain", "area": "Open ML research", "citations": 9000, "note": "Founded C4AI; now back at Cohere"}
+    ],
+    "bar_summary_upgrade": "Cohere Labs (rebrand from Cohere For AI 2025) leans toward multilingual NLP + open-science research. Scholars Program (8-month, January start) is the open-call pathway — accepts strong early-career researchers globally, not strictly PhD. Full RS hires come from Google/Meta/MSR or top European NLP labs (Amsterdam, Heidelberg). Bar for intern/scholar: clear multilingual/equity-NLP angle + first-author paper at ACL/EMNLP/NeurIPS.",
+    "sources": ["https://cohere.com/research", "https://cohere.com/research/scholars-program"]
+  },
+
+  "intern-ai2-prior": {
+    "recent_placements": [
+      {"name": "Ranjay Krishna", "year": "Dir. PRIOR + UW AP", "phd": "Stanford (Fei-Fei Li)", "pre_stop": "Stanford PhD", "area": "Vision + language", "citations": 22000, "note": "Lab director"},
+      {"name": "Tanmay Gupta", "year": "RS", "phd": "UIUC (Hoiem)", "pre_stop": "UIUC PhD", "area": "Compositional vision-language", "citations": 4500, "note": "VisProg first author"},
+      {"name": "Christopher Clark", "year": "RS", "phd": "UW (Zettlemoyer)", "pre_stop": "UW PhD", "area": "QA / multimodal", "citations": 7500, "note": ""},
+      {"name": "Jaemin Cho", "year": "Young Investigator → JHU AP 2025", "phd": "UNC (Bansal)", "pre_stop": "UNC PhD", "area": "Vision-language generative", "citations": 6500, "note": "PRIOR → faculty"},
+      {"name": "Jason Ren", "year": "RS → UNC AP", "phd": "UIUC (Schwing)", "pre_stop": "UIUC PhD", "area": "3D vision / generative", "citations": 3500, "note": "PRIOR → faculty"},
+      {"name": "Matt Wallingford", "year": "RS", "phd": "UW (Farhadi)", "pre_stop": "UW PhD", "area": "Self-supervised vision", "citations": 1500, "note": ""},
+      {"name": "Sangho Lee", "year": "RS", "phd": "SNU (Kim Gunhee)", "pre_stop": "SNU PhD", "area": "Multimodal video", "citations": 2200, "note": ""},
+      {"name": "Yue Yang", "year": "RS", "phd": "UPenn (CIS)", "pre_stop": "UPenn PhD", "area": "Vision + language", "citations": 1500, "note": ""}
+    ],
+    "bar_summary_upgrade": "AI2 PRIOR is a launching pad for VLM faculty (Krishna→UW AP, Cho→JHU AP, Ren→UNC AP) — direct PhD→RS hires dominate, with PhD origins clustered at UW (Farhadi/Zettlemoyer), UIUC (Hoiem/Schwing), Stanford (Fei-Fei), UNC (Bansal), UPenn, SNU. Bar = ≥1 first-author CVPR/ICCV/NeurIPS paper on vision-language or embodied AI. Predoctoral Young Investigator route exists for masters/early researchers.",
+    "sources": ["https://prior.allenai.org/people", "https://sangho-vision.github.io/"]
+  },
+
+  "intern-nvidia-vlm-2026": {
+    "recent_placements": [
+      {"name": "Yao (Jason) Lu", "year": "Principal RS", "phd": "PhD (industry)", "pre_stop": "Google DeepMind TLM (SayCan/RT-1/RT-2)", "area": "VLM/efficient LLM", "citations": 12000, "note": "Senior IC"},
+      {"name": "Hongxu (Danny) Yin", "year": "RS", "phd": "Princeton EE", "pre_stop": "Princeton PhD", "area": "Efficient ML / VLM", "citations": 6000, "note": ""},
+      {"name": "Song Han", "year": "Distinguished Scientist (MIT joint)", "phd": "Stanford EE (Dally)", "pre_stop": "MIT EECS AP", "area": "Efficient deep learning", "citations": 75000, "note": "MIT prof + NVIDIA"},
+      {"name": "Pavlo Molchanov", "year": "Principal RS", "phd": "TUT Finland", "pre_stop": "NVIDIA RS", "area": "Efficient VLM / pruning", "citations": 12000, "note": "VILA series co-lead"}
+    ],
+    "bar_summary_upgrade": "NVIDIA Research VLM team (VILA/NVILA/Cosmos Nemotron) recruits from top-tier efficient-ML and vision pedigrees — Stanford/Princeton/MIT/CMU PhDs with hardware-aware deep learning background. Bar = first-author NeurIPS/CVPR/ICCV on efficient inference, model compression, or VLM scaling. Internship pipeline strongly favors candidates with prior NVIDIA collaboration via DLI or research grants.",
+    "sources": ["https://developer.nvidia.com/blog/visual-language-models-on-nvidia-hardware-with-vila/", "https://arxiv.org/html/2412.04468v1"]
+  },
+
+  "postdoc-stanford-yeung-levy-marvl": {
+    "recent_placements": [
+      {"name": "Anita Rau", "year": "Postdoc 2023+", "phd": "UCL (Stoyanov)", "pre_stop": "UCL Surgical Robot Vision PhD", "area": "Surgical video understanding", "citations": 800, "note": "Direct from PhD"},
+      {"name": "Yuhui Zhang", "year": "Postdoc 2024+ (job market 25-26)", "phd": "Stanford CS (Zou/Yeung-Levy)", "pre_stop": "Stanford PhD", "area": "Multimodal ML / cell biology", "citations": 2500, "note": "Co-advised w/ Schmidt, Lundberg"},
+      {"name": "Xiaoxiao Sun", "year": "Postdoc", "phd": "ANU (Zheng)", "pre_stop": "ANU PhD", "area": "Computer vision / distribution shift", "citations": 1500, "note": ""},
+      {"name": "Mars Huang", "year": "Alum (PhD)", "phd": "Stanford BMI (Yeung-Levy / Lungren)", "pre_stop": "Stanford PhD", "area": "Medical AI", "citations": 4500, "note": "Co-advised w/ Matt Lungren"},
+      {"name": "Orr Zohar", "year": "Alum (PhD)", "phd": "Stanford EE", "pre_stop": "Stanford PhD", "area": "Video understanding", "citations": 1500, "note": "Video-STaR / VideoMME"}
+    ],
+    "bar_summary_upgrade": "MARVL postdocs come from elite vision/medical-AI PhDs (UCL surgical, ANU vision, Stanford BMI) with strong CVPR/MICCAI track. Lab explicitly recruits for: multimodal LLMs, video-language, AI for surgery, AI for science. Bar = first-author CVPR/ICCV/NeurIPS/Nature-Methods + clinical-domain familiarity. Yeung-Levy hired through 2024 Twitter call — Jewelina's surgical-VBVR angle is direct fit if framed via Rau's template.",
+    "sources": ["https://marvl.stanford.edu/people.html", "https://anitarau.github.io/", "https://cs.stanford.edu/~yuhuiz/", "https://x.com/yeung_levy/status/1834011143259701261"]
+  },
+
+  "postdoc-stanford-diyi-yang-salt": {
+    "recent_placements": [
+      {"name": "Ryan Louie", "year": "Postdoc current", "phd": "Northwestern CS", "pre_stop": "Northwestern PhD", "area": "Human-AI / education", "citations": 1500, "note": "Co-advised w/ Brunskill"},
+      {"name": "Vishakh Padmakumar", "year": "Postdoc current", "phd": "NYU (He He)", "pre_stop": "NYU PhD", "area": "NLP / human-AI collab", "citations": 900, "note": ""},
+      {"name": "Hao Zhu", "year": "Postdoc current", "phd": "CMU LTI", "pre_stop": "CMU PhD", "area": "Multi-agent NLP / SOTOPIA", "citations": 2500, "note": ""},
+      {"name": "Joachim Baumann", "year": "Postdoc current", "phd": "UZH", "pre_stop": "UZH PhD", "area": "AI ethics / fairness", "citations": 600, "note": "Co-advised w/ Koyejo"},
+      {"name": "Weiyan Shi", "year": "Postdoc → Northeastern AP", "phd": "Columbia CS (Yu Zhou)", "pre_stop": "Columbia PhD", "area": "Persuasive dialogue", "citations": 3000, "note": "Postdoc → faculty"},
+      {"name": "Rose E. Wang", "year": "PhD alum → OpenAI", "phd": "Stanford CS (Yang)", "pre_stop": "Stanford PhD", "area": "Education NLP", "citations": 2500, "note": "Forbes 30u30"},
+      {"name": "William Held", "year": "PhD alum → Marin", "phd": "Stanford CS (Yang)", "pre_stop": "Stanford PhD", "area": "Multilingual NLP", "citations": 1500, "note": ""},
+      {"name": "Jiaao Chen", "year": "PhD alum → Meta", "phd": "GaTech (Yang) → Stanford", "pre_stop": "GaTech PhD", "area": "NLP", "citations": 3500, "note": "Yang's earlier student"}
+    ],
+    "bar_summary_upgrade": "SALT lab postdocs come from NYU/CMU LTI/UZH/Northwestern with strong NLP+human-AI publication base — postdoc-to-faculty placements are real (Shi→Northeastern AP). Bar = first-author ACL/EMNLP/NeurIPS/CHI + computational social science OR human-AI collab angle. Yang's lab is explicit about wanting top-tier-pub portfolio. Direct-from-PhD postdoc hiring dominates.",
+    "sources": ["https://saltlab.stanford.edu/people", "https://cs.stanford.edu/~diyiy/getinvolved.html"]
+  },
+
+  "postdoc-stanford-fei-fei-svl": {
+    "recent_placements": [
+      {"name": "Ranjay Krishna", "year": "PhD → UW AP + AI2 PRIOR Dir.", "phd": "Stanford CS (Fei-Fei)", "pre_stop": "Stanford PhD", "area": "Vision-language", "citations": 22000, "note": "Visual Genome"},
+      {"name": "Andrej Karpathy", "year": "PhD → OpenAI/Tesla", "phd": "Stanford CS (Fei-Fei)", "pre_stop": "Stanford PhD", "area": "Vision / generative", "citations": 95000, "note": "Founding OpenAI"},
+      {"name": "Jiajun Wu", "year": "Postdoc 2019→Stanford AP", "phd": "MIT CSAIL (Tenenbaum)", "pre_stop": "MIT PhD", "area": "Physical scene understanding", "citations": 25000, "note": "Stanford AP"},
+      {"name": "Ruohan Gao", "year": "Postdoc → UMD AP", "phd": "UT Austin (Grauman)", "pre_stop": "Facebook AI postdoc", "area": "Audio-visual", "citations": 3500, "note": ""},
+      {"name": "Christopher Choy", "year": "PhD → NVIDIA RS", "phd": "Stanford CS (Fei-Fei/Savarese)", "pre_stop": "Stanford PhD", "area": "3D vision", "citations": 9000, "note": ""},
+      {"name": "Andrey Kurenkov", "year": "PhD → industry", "phd": "Stanford CS (Fei-Fei/Savarese)", "pre_stop": "Stanford PhD 2023", "area": "Robotics manipulation", "citations": 2500, "note": ""}
+    ],
+    "bar_summary_upgrade": "Stanford SVL is the canonical CV faculty/founder factory — direct PhD→faculty (Krishna UW, Wu Stanford via MIT-postdoc), PhD→founder (Karpathy OpenAI/Tesla, Fei-Fei→World Labs). Note: Fei-Fei on partial leave 2024-25 for World Labs, so new PhD intake is reduced. Postdoc bar = MIT/UT Austin/CMU CV PhDs with NeurIPS/CVPR-best-paper-tier work. Jewelina's medical VBVR angle better fits MARVL than SVL proper.",
+    "sources": ["https://profiles.stanford.edu/fei-fei-li", "https://jiajunwu.com/", "https://ruohangao.github.io/"]
+  },
+
+  "postdoc-stanford-landay": {
+    "recent_placements": [
+      {"name": "Mitchell Gordon", "year": "PhD 2023 → MIT EECS AP 2024", "phd": "Stanford CS (Bernstein/Landay)", "pre_stop": "Stanford PhD", "area": "Human-AI eval / pluralism", "citations": 2500, "note": "Stanford Arthur Samuel Award"},
+      {"name": "Jingyi Li", "year": "PhD → Pomona AP Jan 2024", "phd": "Stanford CS (Follmer/Agrawala)", "pre_stop": "Stanford PhD", "area": "Creativity tools / fabrication", "citations": 1000, "note": ""},
+      {"name": "Joseph Seering", "year": "Postdoc → KAIST AP 2023", "phd": "CMU HCII", "pre_stop": "Stanford postdoc", "area": "Online community / moderation", "citations": 2500, "note": ""},
+      {"name": "Andrea Cuadra", "year": "PhD → Olin College AP", "phd": "Cornell IS", "pre_stop": "Stanford postdoc", "area": "Voice UI / older adults", "citations": 600, "note": ""},
+      {"name": "Chenyan Jia", "year": "PhD → Northeastern AP", "phd": "Stanford Comm/HCI", "pre_stop": "Stanford PhD", "area": "Misinformation / HCI", "citations": 800, "note": ""},
+      {"name": "Hari Subramonyam", "year": "PhD → Stanford GSE AP", "phd": "Michigan (Adar)", "pre_stop": "Adobe Research", "area": "AI for learning / explainability", "citations": 2000, "note": "Joined HCI faculty"},
+      {"name": "Jane E", "year": "PhD → NUS AP", "phd": "Stanford CS", "pre_stop": "Stanford PhD", "area": "HCI / video", "citations": 800, "note": ""}
+    ],
+    "bar_summary_upgrade": "Stanford HCI Group placements 2023-24 cohort = 5+ R1 AP positions (MIT, KAIST, Pomona, Olin, Northeastern, NUS) — the strongest direct-from-PhD HCI faculty pipeline in the US. Bar = 4-6 first-author CHI/UIST papers + Best Paper or dissertation award (Samuel/SIGCHI). Landay students cluster around AI+creativity, voice UI, community/moderation. Postdoc-to-faculty (Seering CMU→KAIST) is also a path.",
+    "sources": ["https://hci.stanford.edu/people/", "https://mitchellg.github.io/", "https://joseph.seering.org/index.html", "https://www.pomona.edu/directory/people/jingyi-li"]
+  },
+
+  "postdoc-cmu-mayank-goel-smash": {
+    "recent_placements": [
+      {"name": "Karan Ahuja", "year": "PhD 2023 → Northwestern AP", "phd": "CMU HCII (Harrison/Goel)", "pre_stop": "CMU PhD", "area": "XR sensing / Android XR", "citations": 4000, "note": "SIGCHI Outstanding Diss; Forbes 30u30 Asia"},
+      {"name": "Abdelkareem Bedri", "year": "PhD → Apple Sr. RS + Manager", "phd": "CMU HCII (Goel/Harrison)", "pre_stop": "CMU PhD", "area": "Wearable sensing", "citations": 2200, "note": ""},
+      {"name": "Rushil Khurana", "year": "PhD → AI2 RS", "phd": "CMU HCII (Goel)", "pre_stop": "CMU PhD", "area": "Mobile sensing", "citations": 1500, "note": ""},
+      {"name": "Julian Ramos", "year": "PhD → Meta Reality Labs", "phd": "CMU HCII (Goel)", "pre_stop": "CMU PhD", "area": "Ubicomp / sensing", "citations": 1200, "note": ""},
+      {"name": "Prerna Chikersal", "year": "PhD → TripAdvisor", "phd": "CMU HCII (Goel/Dey)", "pre_stop": "CMU PhD", "area": "Mental health sensing", "citations": 1500, "note": ""},
+      {"name": "Riku Arakawa", "year": "PhD candidate (proposal 2026)", "phd": "CMU HCII (Goel)", "pre_stop": "Tokyo MS", "area": "Wearable health AI", "citations": 600, "note": "2x CHI 2026 honourable mentions"}
+    ],
+    "bar_summary_upgrade": "SMASH alums place at top R1 (Northwestern Ahuja), elite industry (Apple Bedri, AI2 Khurana, Meta Ramos) — direct-from-PhD dominant. Bar = 4-6 first-author CHI/UIST/IMWUT papers on wearable/mobile sensing + at least one ML/signal-processing 'systems' contribution. Postdoc opening is rare; PhD intake competitive. Jewelina's wearable health portfolio is a natural fit if framed against Ahuja/Bedri template.",
+    "sources": ["http://smashlab.io/members/", "https://karan-ahuja.com/", "https://rikky0611.github.io/"]
+  },
+
+  "postdoc-cmu-bigham": {
+    "recent_placements": [
+      {"name": "Jason Wu", "year": "PhD → Apple RS → Purdue AP 2025", "phd": "CMU HCII (Bigham)", "pre_stop": "Apple HCMI", "area": "Accessibility / UI understanding", "citations": 1100, "note": "Apple → faculty"},
+      {"name": "Mary Beth Kery", "year": "PhD → Apple RS 2021", "phd": "CMU HCII (Bigham/Myers)", "pre_stop": "CMU PhD", "area": "Programming tools + AI", "citations": 1800, "note": "Direct from PhD"},
+      {"name": "Cole Gleason", "year": "PhD → Microsoft Research", "phd": "CMU HCII (Bigham/Carrington)", "pre_stop": "CMU PhD", "area": "Accessibility / image descriptions", "citations": 1200, "note": ""},
+      {"name": "Amy Pavel", "year": "PhD → UT Austin AP", "phd": "CMU HCII (Bigham/Hartmann)", "pre_stop": "Apple research scientist", "area": "Accessible video", "citations": 2500, "note": "Apple → UT Austin faculty"},
+      {"name": "Anhong Guo", "year": "PhD → UMich AP", "phd": "CMU HCII (Bigham)", "pre_stop": "Google Research", "area": "Accessibility + AI", "citations": 3500, "note": ""}
+    ],
+    "bar_summary_upgrade": "Bigham's CMU HCII students are the gold standard for accessibility+AI faculty pipeline — multiple direct-from-PhD or Apple/Google→AP placements (Wu Purdue, Pavel UT Austin, Guo UMich). Bar = ≥5 first-author CHI/ASSETS papers + accessibility-domain depth + AI/ML modeling. Bigham splits time CMU/Apple, so industry-research path is equally trodden as faculty. Best Paper or SIGACCESS Best Paper standard.",
+    "sources": ["https://hcii.cmu.edu/people/alumni/phd", "https://jasonwunix.com/", "https://marybethkery.com/"]
+  },
+
+  "postdoc-cmu-choset-biorobotics": {
+    "recent_placements": [
+      {"name": "Matthew Travers", "year": "PhD → CMU co-director Biorobotics", "phd": "Drexel + Choset postdoc", "pre_stop": "CMU postdoc", "area": "Snake robots / gait", "citations": 4500, "note": "Now co-directs lab"},
+      {"name": "Ross Hatton", "year": "PhD → Oregon State AP→Full Prof", "phd": "CMU Robotics (Choset)", "pre_stop": "CMU PhD", "area": "Geometric mechanics", "citations": 4000, "note": "Field thought leader"},
+      {"name": "Elie Shammas", "year": "PhD → AUB Beirut professor", "phd": "CMU Robotics (Choset)", "pre_stop": "CMU PhD", "area": "Locomotion", "citations": 1500, "note": ""},
+      {"name": "Chaohui Gong", "year": "PhD → Bito Robotics (co-founder)", "phd": "CMU Robotics (Choset)", "pre_stop": "CMU PhD", "area": "AGV systems", "citations": 1500, "note": "Co-founded with Choset"},
+      {"name": "Tony Dear", "year": "PhD → Columbia AP", "phd": "CMU Robotics (Choset)", "pre_stop": "CMU postdoc", "area": "Geometric robotics", "citations": 1000, "note": ""}
+    ],
+    "bar_summary_upgrade": "Choset's biorobotics PhDs split between R1 faculty (Oregon State, Columbia, AUB) and founding startups (Medrobotics, Hebi, Bito). 13 PhDs total across career — small selective intake. Bar = strong mech-eng/control fundamentals + first-author ICRA/IROS + RSS-tier papers. Surgical robotics path overlaps with Russell Taylor (JHU). Less direct fit for Jewelina's wearable-health profile unless she pivots toward soft-robotics-for-health.",
+    "sources": ["https://www.biorobotics.org/", "https://www.cs.cmu.edu/~choset/"]
+  },
+
+  "postdoc-mit-pattie-maes-fluid": {
+    "recent_placements": [
+      {"name": "Pat Pataranutaporn", "year": "PhD → MIT AP (Cyborg Psych group)", "phd": "MIT Media Lab (Maes)", "pre_stop": "MIT PhD", "area": "Wearable AI / character agents", "citations": 1200, "note": "Direct-from-PhD MIT faculty"},
+      {"name": "Roy Shilkrot", "year": "PhD → Stony Brook AP", "phd": "MIT Media Lab (Maes) 2015", "pre_stop": "MIT PhD", "area": "AR / assistive", "citations": 1500, "note": ""},
+      {"name": "Joanne Leong", "year": "PhD candidate", "phd": "MIT Media Lab (Maes)", "pre_stop": "—", "area": "Human-AI / learning", "citations": 600, "note": ""},
+      {"name": "Valdemar Danry", "year": "PhD candidate", "phd": "MIT Media Lab (Maes)", "pre_stop": "—", "area": "AI reasoning / cognition", "citations": 1500, "note": "Major CHI work on AI deception"},
+      {"name": "Tatsuo Nakajima alumni network", "year": "—", "phd": "MIT Media Lab (Maes alumni network places at NUS-AHL, Tsukuba, Univ. Auckland)", "pre_stop": "Multiple", "area": "Augmented human", "citations": 0, "note": "data partially verified"}
+    ],
+    "bar_summary_upgrade": "Fluid Interfaces alumni place across MIT (Pataranutaporn faculty), Stony Brook (Shilkrot), and Augmented Human Lab spinouts (NUS Suranga Nanayakkara). Bar = Media-Lab-style demo-driven research + CHI/UIST first-authorships + cross-disciplinary art/science fluency. Less ML-publication-driven than SALT/MARVL; more system-building and provocation-piece focused.",
+    "sources": ["https://www.media.mit.edu/groups/fluid-interfaces/group-members/", "https://www.media.mit.edu/people/patpat/overview/", "http://alumni.media.mit.edu/~roys/"]
+  },
+
+  "postdoc-mit-ghassemi": {
+    "recent_placements": [
+      {"name": "Yuexing Hao", "year": "Postdoc current", "phd": "PhD origin (HCI for healthcare)", "pre_stop": "PhD program", "area": "AI for healthcare / HCI", "citations": 600, "note": "⭐ Jewelina-comp postdoc"},
+      {"name": "Sana Tonekaboni", "year": "Postdoc current", "phd": "Toronto (Goldenberg)", "pre_stop": "Vector Institute", "area": "Multimodal biomedical AI", "citations": 2500, "note": ""},
+      {"name": "Eman Alnabati", "year": "Postdoc current", "phd": "PhD (genomics/imaging)", "pre_stop": "PhD program", "area": "Fairness + medical imaging", "citations": 600, "note": ""},
+      {"name": "Lena Stempfle", "year": "Postdoc current", "phd": "Chalmers", "pre_stop": "Chalmers PhD", "area": "Missing-data ML / causality", "citations": 400, "note": ""},
+      {"name": "Vinith Suriyakumar", "year": "PhD candidate → likely AP", "phd": "MIT (Ghassemi)", "pre_stop": "—", "area": "Differential privacy + fairness", "citations": 800, "note": ""},
+      {"name": "Haoran Zhang", "year": "PhD candidate → likely AP", "phd": "MIT (Ghassemi)", "pre_stop": "—", "area": "Robust ML across environments", "citations": 800, "note": ""},
+      {"name": "Past placements", "year": "PhD alumni → UCLA / UVA / GaTech / UMich / Columbia faculty", "phd": "MIT (Ghassemi prior at UofT)", "pre_stop": "PhD", "area": "ML for health", "citations": 0, "note": "Stated on lab page"}
+    ],
+    "bar_summary_upgrade": "Healthy ML places PhDs at R1 faculty (UCLA, UVA, GaTech, UMich, Columbia) + industry (Apple, Amazon, Meta). Postdocs from Toronto/Chalmers/clinical-AI PhD programs. The Yuexing Hao postdoc (AI4Health + HCI) is the direct template for Jewelina. Bar = ICML/NeurIPS/NEJM-AI/Nature-Medicine pubs on fairness, distribution shift, or trustworthy clinical ML.",
+    "sources": ["https://healthyml.org/people/"]
+  },
+
+  "postdoc-mit-barzilay-jameel": {
+    "recent_placements": "data_unavailable_public_search — Jameel Clinic does not publish a comprehensive lab-member list; Barzilay's CSAIL site lists current students/postdocs but few placement annotations.",
+    "bar_summary_upgrade": "Barzilay's group bar = NLP+drug-discovery PhD with strong ICML/NeurIPS/Nature-Chem/Cell publication record. Barzilay herself: Columbia PhD, Cornell postdoc, MacArthur Fellow. Co-leads ML-for-health with Collins and Sharp. Direct PhD→industry pharma-AI (Recursion, Insitro) and PhD→AP at top CS schools are both well-trodden.",
+    "sources": ["https://www.regina.csail.mit.edu/", "https://jclinic.mit.edu/team-member/regina-barzilay/"]
+  },
+
+  "postdoc-berkeley-darrell": {
+    "recent_placements": [
+      {"name": "Kristen Grauman", "year": "PhD → UT Austin AP→Full Prof", "phd": "MIT CSAIL (Darrell)", "pre_stop": "MIT PhD", "area": "Computer vision", "citations": 60000, "note": "Darrell's earlier student"},
+      {"name": "Louis-Philippe Morency", "year": "PhD → CMU AP→Assoc Prof", "phd": "MIT CSAIL (Darrell)", "pre_stop": "MIT PhD", "area": "Multimodal ML", "citations": 35000, "note": ""},
+      {"name": "Kate Saenko", "year": "PhD → Boston Univ AP→Full Prof", "phd": "MIT CSAIL (Darrell)", "pre_stop": "MIT PhD", "area": "Domain adaptation", "citations": 30000, "note": ""},
+      {"name": "Yangqing Jia", "year": "PhD → Google → Facebook → Lepton AI", "phd": "Berkeley (Darrell)", "pre_stop": "Berkeley PhD", "area": "Vision / Caffe creator", "citations": 90000, "note": "Caffe; PyTorch"},
+      {"name": "Zhuang Liu", "year": "PhD → Meta FAIR → Princeton AP", "phd": "Berkeley (Darrell)", "pre_stop": "FAIR researcher", "area": "Vision architectures (ConvNeXt)", "citations": 30000, "note": "Princeton AP"},
+      {"name": "Tete Xiao", "year": "PhD → OpenAI", "phd": "Berkeley (Darrell)", "pre_stop": "Berkeley PhD", "area": "Vision / SSL", "citations": 15000, "note": ""},
+      {"name": "Raquel Urtasun", "year": "Postdoc → Toronto AP → Waabi CEO", "phd": "EPFL", "pre_stop": "TTI-C", "area": "Self-driving / vision", "citations": 75000, "note": "Postdoc → founder"}
+    ],
+    "bar_summary_upgrade": "Darrell group is the canonical CV faculty/founder factory — Grauman/Morency/Saenko/Liu all major R1 faculty; Jia/Xiao/Urtasun at OpenAI/Lepton/Waabi. Direct PhD→tenure-track or PhD→founder both common. Bar = first-author CVPR/ICCV/NeurIPS-best-paper-tier work + an open-source artifact (Caffe-style) or method (ConvNeXt) helps enormously. 19 current PhDs, 5 postdocs.",
+    "sources": ["https://darrellgroup.github.io/", "https://en.wikipedia.org/wiki/Trevor_Darrell"]
+  },
+
+  "postdoc-cornell-tanzeem-choudhury": {
+    "recent_placements": [
+      {"name": "Akane Sano", "year": "Postdoc → Rice AP", "phd": "Keio Univ", "pre_stop": "MIT Media Lab postdoc → Cornell postdoc", "area": "Affective computing / wearable health", "citations": 9000, "note": "⭐ Jewelina comp"},
+      {"name": "Tauhidur Rahman", "year": "PhD → UC San Diego AP", "phd": "Cornell IS (Choudhury) 2017", "pre_stop": "UMass Amherst AP first", "area": "Wearable sensing", "citations": 4000, "note": ""},
+      {"name": "Saeed Abdullah", "year": "PhD → Penn State AP", "phd": "Cornell IS (Choudhury)", "pre_stop": "Cornell PhD", "area": "Mobile mental health", "citations": 3000, "note": ""},
+      {"name": "Alexander Adams", "year": "PhD → GaTech AP", "phd": "Cornell IS (Choudhury)", "pre_stop": "Cornell PhD", "area": "Behavioral sensing", "citations": 1500, "note": ""},
+      {"name": "Mark Matthews", "year": "Postdoc → HealthRhythms CTO", "phd": "Trinity Coll. Dublin", "pre_stop": "Cornell postdoc", "area": "Mobile mental health", "citations": 4500, "note": "Co-founded with Choudhury"},
+      {"name": "Mi Zhang", "year": "Postdoc → Ohio State Assoc Prof", "phd": "USC", "pre_stop": "Cornell postdoc", "area": "Mobile/edge ML", "citations": 12000, "note": ""},
+      {"name": "Stephen Voida", "year": "Postdoc → CU Boulder Assoc Prof", "phd": "GaTech", "pre_stop": "Cornell postdoc", "area": "Ubicomp / mental health", "citations": 3500, "note": ""},
+      {"name": "Hane Aung", "year": "Postdoc → UEA Assoc Prof", "phd": "Newcastle", "pre_stop": "Cornell postdoc", "area": "Wearable mental health", "citations": 2500, "note": ""},
+      {"name": "Sirat Samyoun", "year": "Postdoc → TikTok RS", "phd": "Virginia Tech", "pre_stop": "Cornell postdoc", "area": "Audio + wearable sensing", "citations": 600, "note": ""},
+      {"name": "Daniel A. Adler", "year": "Postdoc current (Stanford med joint)", "phd": "Cornell IS (Choudhury) 2024", "pre_stop": "Cornell PhD", "area": "Clinical mobile mental health", "citations": 1500, "note": "Direct path Choudhury chain"}
+    ],
+    "bar_summary_upgrade": "Choudhury's lab is the strongest possible Jewelina-comp: postdoc placements span R1 AP (Rice/UCSD/Penn State/GaTech/CU Boulder/UEA), Assoc Prof (Ohio State/UEA), industry RS (TikTok), and co-founding (HealthRhythms/Dapple). Direct PhD→AP (Rahman→UCSD, Abdullah→Penn State, Adams→GaTech) all standard. Bar = wearable + multimodal + clinical deployment publication portfolio (CHI / IMWUT / npj-Digital-Medicine). 10+ verified placements across cohorts. ⭐ TOP PRIORITY for Jewelina.",
+    "sources": ["https://pac.cs.cornell.edu/", "https://tech.cornell.edu/people/tanzeem-choudhury/"]
+  },
+
+  "postdoc-uw-althoff": {
+    "recent_placements": [
+      {"name": "Ashish Sharma", "year": "PhD 2024 → MS Office of Applied Research (Sr.)", "phd": "UW Allen (Althoff)", "pre_stop": "UW PhD", "area": "Mental health LLM / human-AI collab", "citations": 3000, "note": "ACM Doctoral Diss Award 2024"},
+      {"name": "Mike Merrill", "year": "PhD → Anthropic MTS", "phd": "UW Allen (Althoff)", "pre_stop": "Apple Health AI intern", "area": "Wearable health LLM", "citations": 1500, "note": "Anthropic"},
+      {"name": "Jina Suh", "year": "PhD → MSR researcher", "phd": "UW Allen (Althoff)", "pre_stop": "UW PhD", "area": "Mental health + work", "citations": 2500, "note": ""},
+      {"name": "Bret Nestor", "year": "Postdoc → Toronto AP", "phd": "Toronto", "pre_stop": "UW postdoc", "area": "Clinical ML", "citations": 1500, "note": ""},
+      {"name": "Inna Lin", "year": "PhD candidate", "phd": "UW Allen (Althoff)", "pre_stop": "—", "area": "Mental health NLP", "citations": 1500, "note": "WWW best paper co-author"},
+      {"name": "Joy He-Yueya", "year": "UGRA → Stanford CS PhD", "phd": "Stanford CS", "pre_stop": "UW BS + Althoff research", "area": "Education NLP", "citations": 1000, "note": "UG → top PhD"}
+    ],
+    "bar_summary_upgrade": "Althoff's group has elite NLP+health placements: ACM Doctoral Diss (Sharma 2024), Anthropic MTS (Merrill), MSR (Suh). Bar = WWW/CHI/ACL best-paper-tier work on mental-health-AI deployment. The Sharma→MS Office of Applied Research path mirrors what Hippocratic AI would offer. Strong direct-from-PhD industry-research pipeline; faculty placement less common in recent cohort.",
+    "sources": ["https://behavioral-data.github.io/team/", "https://ash-shar.github.io/", "https://mikemerrill.io/"]
+  },
+
+  "postdoc-ucsd-weibel-hxi": {
+    "recent_placements": [
+      {"name": "Manas Bedmutha", "year": "PhD current (3rd-4th yr)", "phd": "UCSD CSE (Weibel)", "pre_stop": "—", "area": "Multimodal clinical AI", "citations": 400, "note": ""},
+      {"name": "Aaron Broukhim", "year": "PhD current", "phd": "UCSD CSE (Weibel)", "pre_stop": "—", "area": "Clinical HCI", "citations": 200, "note": ""},
+      {"name": "Poorva Bedmutha", "year": "PhD current (co-Singh)", "phd": "UCSD CSE (Weibel/Singh)", "pre_stop": "—", "area": "Clinical decision support", "citations": 200, "note": ""},
+      {"name": "Weichen Liu", "year": "PhD current (co-Schulze)", "phd": "UCSD CSE", "pre_stop": "—", "area": "XR/VR for health", "citations": 200, "note": ""},
+      {"name": "Isaac Bouchard", "year": "PhD current (co-Eikey)", "phd": "UCSD CSE", "pre_stop": "—", "area": "Clinical informatics", "citations": 100, "note": ""}
+    ],
+    "bar_summary_upgrade": "HXI is a small focused lab (5 active PhDs). Verified alumni placements not surfaced on people page — likely require LinkedIn deep-dive. Bar inferred = CHI/CSCW + clinical-HCI deployment work, with strong cross-disciplinary clinical-school collaboration (Singh, Eikey). Direct fit for Jewelina's wearable-health profile if her PhD topic aligns with their multimodal-clinical-AI agenda.",
+    "sources": ["https://hxi.ucsd.edu/people"]
+  },
+
+  "postdoc-gatech-munmun": {
+    "recent_placements": [
+      {"name": "Stevie Chancellor", "year": "PhD → Northwestern postdoc → UMN AP", "phd": "GaTech (De Choudhury)", "pre_stop": "Northwestern postdoc", "area": "Mental health + online community", "citations": 2500, "note": ""},
+      {"name": "Koustuv Saha", "year": "PhD → MSR postdoc → UIUC AP", "phd": "GaTech (De Choudhury)", "pre_stop": "MSR postdoc", "area": "Workplace mental health sensing", "citations": 3000, "note": ""},
+      {"name": "Sindhu Ernala", "year": "PhD → Meta RS", "phd": "GaTech (De Choudhury)", "pre_stop": "GaTech PhD", "area": "Mental health social media", "citations": 1500, "note": ""},
+      {"name": "Dong Whi Yoo", "year": "PhD → Kent State AP", "phd": "GaTech (De Choudhury)", "pre_stop": "GaTech PhD", "area": "Clinical mental health HCI", "citations": 600, "note": ""},
+      {"name": "Vedant Das Swain", "year": "PhD → Northeastern postdoc", "phd": "GaTech (De Choudhury)", "pre_stop": "GaTech PhD", "area": "Workplace sensing", "citations": 1200, "note": ""},
+      {"name": "Sachin Pendse", "year": "PhD → UCSF postdoc", "phd": "GaTech (De Choudhury)", "pre_stop": "GaTech PhD", "area": "Global mental health HCI", "citations": 800, "note": ""},
+      {"name": "Talayeh Aledavood", "year": "Postdoc → Aalto AP", "phd": "Aalto Univ.", "pre_stop": "GaTech postdoc", "area": "Computational social science / health", "citations": 2500, "note": "⭐ Jewelina comp"},
+      {"name": "Mai ElSherief", "year": "Postdoc → Northeastern AP", "phd": "UCSB", "pre_stop": "GaTech postdoc", "area": "Health misinformation NLP", "citations": 2500, "note": ""},
+      {"name": "Daejin Choi", "year": "Postdoc → Incheon Nat'l AP", "phd": "KAIST", "pre_stop": "GaTech postdoc", "area": "Social computing", "citations": 1500, "note": ""},
+      {"name": "Minje Choi", "year": "Postdoc → Amazon Science", "phd": "UMich", "pre_stop": "GaTech postdoc", "area": "NLP for health", "citations": 1200, "note": ""}
+    ],
+    "bar_summary_upgrade": "De Choudhury's group is the dominant mental-health-HCI placement engine: 6+ R1 faculty (UMN, UIUC, Kent State, Northeastern, Aalto, Incheon) + industry (Meta, Amazon) + postdoc-to-faculty pipeline very strong. Bar = 4-6 first-author CHI/CSCW/ICWSM papers on social-media mental health + computational social science methods. Postdoc cohort (Aledavood, ElSherief, Choi) all left for AP positions. Strong Jewelina-comp if she frames toward mental-health-sensing.",
+    "sources": ["https://socweb.cc.gatech.edu/people/"]
+  },
+
+  "postdoc-jhu-russell-taylor-lcsr": {
+    "recent_placements": [
+      {"name": "Mathias Unberath", "year": "Postdoc → JHU AP→Assoc Prof", "phd": "FAU Erlangen", "pre_stop": "JHU LCSR postdoc (Taylor)", "area": "Surgical AR / vision", "citations": 6500, "note": "John C. Malone Assoc Prof; co-founded Semaphor Surgical"},
+      {"name": "Peter Kazanzides", "year": "Postdoc → JHU research prof", "phd": "JHU", "pre_stop": "IBM Watson postdoc (Taylor)", "area": "Surgical robotics systems", "citations": 8000, "note": ""},
+      {"name": "Yunus Sevimli", "year": "MS → JHU assistant research engineer", "phd": "JHU MS 2015", "pre_stop": "JHU MS", "area": "Galen surgical robot", "citations": 200, "note": "Stayed at LCSR"},
+      {"name": "Robert Grupp", "year": "PhD → JHU LCSR research scientist", "phd": "JHU CS (Taylor)", "pre_stop": "JHU PhD", "area": "X-ray image guidance", "citations": 1500, "note": ""}
+    ],
+    "bar_summary_upgrade": "Russell Taylor — NAE-elected, 400+ publications, 38+ years in surgical robotics — has trained an extraordinary network of medical-robotics faculty across the world. Recent direct placements (Unberath JHU faculty, Kazanzides research prof, Grupp LCSR RS) cluster at JHU itself, with broader alumni network spanning Intuitive, Medtronic, and surgical-robotics startups. Bar = strong mech-eng/CS hybrid + ICRA/IROS/MICCAI/IPCAI publications + clinical-deployment artifact (a robot, image-guidance system, or surgical CAD tool).",
+    "sources": ["https://engineering.jhu.edu/faculty/mathias-unberath/", "https://www.cs.jhu.edu/~rht/", "https://smarts.lcsr.jhu.edu/people/peter-kazanzides/"]
+  },
+
+  "postdoc-northwestern-pardo": {
+    "recent_placements": [
+      {"name": "Hugo Flores Garcia", "year": "PhD → Adobe RS", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Music/audio generative", "citations": 600, "note": "Adobe direct hire"},
+      {"name": "Max Morrison", "year": "PhD → ElevenLabs Research Eng.", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Speech synthesis / pitch", "citations": 800, "note": "ElevenLabs"},
+      {"name": "Ethan Manilow", "year": "PhD → Google DeepMind Sr. RS", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Music separation", "citations": 1500, "note": ""},
+      {"name": "Prem Seetharaman", "year": "PhD → Adobe Sr. RS", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Source separation", "citations": 3500, "note": ""},
+      {"name": "Fatemeh Pishdadian", "year": "PhD → Apple Research Eng.", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Audio ML", "citations": 600, "note": ""},
+      {"name": "Mark Cartwright", "year": "PhD → NJIT AP", "phd": "Northwestern (Pardo)", "pre_stop": "NYU postdoc", "area": "Audio crowdsourcing", "citations": 2500, "note": ""},
+      {"name": "Zhiyao Duan", "year": "PhD → Rochester Assoc Prof", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Music informatics", "citations": 6000, "note": ""},
+      {"name": "Bongjun Kim", "year": "PhD → Solventum AI Researcher", "phd": "Northwestern (Pardo)", "pre_stop": "Northwestern PhD", "area": "Sound search", "citations": 600, "note": ""}
+    ],
+    "bar_summary_upgrade": "Interactive Audio Lab is the canonical audio-ML industry-research factory: Adobe (Garcia, Seetharaman), ElevenLabs (Morrison), DeepMind (Manilow), Apple (Pishdadian) — direct from PhD, no postdoc stop. Faculty placement (Rochester Duan, NJIT Cartwright) also strong. Bar = first-author ICASSP/ISMIR/NeurIPS audio papers + open-source contribution (DALI, nussl-style) + at least one industry internship at Adobe/Google/Apple research before graduation.",
+    "sources": ["https://interactiveaudiolab.github.io/people/"]
+  },
+
+  "postdoc-ucla-anthony-chen-hilab": {
+    "recent_placements": "data_unavailable_public_search — Chen's UCLA HCI Research lab does not publish a dedicated people page accessible to web fetch. He himself: CMU PhD 2017 (HCII), Adobe PhD Fellowship, NSF CRII, Hellman Fellow.",
+    "bar_summary_upgrade": "Chen's lab focuses on HCI + human-AI interaction + symbiotic computing for expert workflows. PhD students publish heavily at CHI/UIST. Bar inferred from his own profile = first-author top-HCI-venue + AI-tool-for-experts angle + strong system-demo culture. Hellman/NSF CRII suggest mid-career trajectory; smaller lab means fewer postdoc slots but high mentor attention.",
+    "sources": ["https://hci.prof/", "https://samueli.ucla.edu/people/xiang-anthony-chen/"]
+  },
+
+  "startup-sunday-robotics": {
+    "recent_placements": [
+      {"name": "Tony Zhao", "year": "Co-founder/CEO 2024", "phd": "Stanford CS dropout (Levine/Finn)", "pre_stop": "DeepMind researcher + Tesla intern", "area": "Imitation learning / ALOHA", "citations": 5500, "note": "Dropped PhD to found"},
+      {"name": "Cheng Chi", "year": "Co-founder", "phd": "Columbia CS → Stanford postdoc", "pre_stop": "TRI robotics intern + Apple intern", "area": "Diffusion policy / manipulation", "citations": 4500, "note": "Diffusion Policy lead"},
+      {"name": "Team (25 engineers/researchers)", "year": "2024-25", "phd": "Mix Stanford / Tesla / DeepMind / Waymo / Meta / Neuralink", "pre_stop": "Various industry", "area": "Home robotics", "citations": 0, "note": "$35M seed; $1.15B valuation 2025"}
+    ],
+    "bar_summary_upgrade": "Sunday Robotics is a tiny elite startup (~25 people) recruiting from Stanford robotics PhDs (Levine/Finn/Bohg orbit) + ex-Tesla Optimus/DeepMind embodied AI/Waymo. Bar to join: strong manipulation ML publication record OR robotics product-engineering pedigree at Tesla/Waymo/DM. Equity-heavy compensation; high research autonomy. Not a typical postdoc destination — more 'PhD-dropout-to-founding-engineer' template.",
+    "sources": ["https://www.sunday.ai/company", "https://cheng-chi.github.io/", "https://www.founded.com/sunday-memo-robot-chores-founders/"]
+  },
+
+  "startup-reka-ai": {
+    "recent_placements": [
+      {"name": "Yi Tay", "year": "Co-founder/Chief Scientist 2023", "phd": "NTU Singapore 2019", "pre_stop": "Google Brain Sr. RS (T5/UL2/PaLM)", "area": "LLM / efficient transformers", "citations": 22000, "note": "Forbes 30u30 Asia"},
+      {"name": "Qi Liu", "year": "Co-founder", "phd": "Oxford CS", "pre_stop": "Google DeepMind", "area": "NLP / multilingual", "citations": 5500, "note": ""},
+      {"name": "Dani Yogatama", "year": "Co-founder/CEO", "phd": "CMU LTI (Smith)", "pre_stop": "DeepMind + USC AP", "area": "NLP / lifelong learning", "citations": 9000, "note": "USC faculty alum"},
+      {"name": "Cyprien de Masson d'Autume", "year": "Co-founder", "phd": "DeepMind research career", "pre_stop": "DeepMind", "area": "LLM / generative", "citations": 6500, "note": ""},
+      {"name": "Mikel Artetxe", "year": "Co-founder", "phd": "UPV/EHU Basque", "pre_stop": "Meta FAIR", "area": "Multilingual NLP", "citations": 18000, "note": "XLM-R alum"}
+    ],
+    "bar_summary_upgrade": "Reka founding team are all senior ex-Google-Brain / DeepMind / FAIR researchers with 5000-20000 citations each — this is not a direct-from-PhD destination. Bar to join Reka as RS: senior-IC LLM research credentials + ability to ship multimodal frontier models (Reka Core/Flash/Edge). For an intern: strong NeurIPS/ICML LLM scaling paper or efficient-transformer contribution. Smaller team (~50) means high signal per hire.",
+    "sources": ["https://www.yitay.net/about", "https://leuchine.github.io/", "https://www.crunchbase.com/organization/reka-ai/people"]
+  }
+}
