@@ -415,15 +415,25 @@ function App() {
 
         <div className="tier-summary">
           <p>
-            <b>👤 履历 snapshot</b>：Imperial College London Hamlyn Centre 一年级 PhD（advisor: <b>Etienne Burdet + Liyun Ma</b>）；NYU Master's GPA 3.97；U Liverpool BEng First Class Hons。<b>9 篇论文</b>（CHI 2024 / IEEE VR 2025 / IJHCI 2023 / JMIR 2021 / VR 2022 + 4 under review）。<b>VBVR — 百万规模 video reasoning dataset</b> 2026.02 发布。<b>CHI 2026 Session Chair</b>。
+            <b>👤 履历 snapshot</b>：Imperial College London Hamlyn Centre 一年级 PhD（advisor: <b>Etienne Burdet + Liyun Ma</b>）；NYU Master's GPA 3.97；U Liverpool BEng First Class Hons。<b>9 篇论文</b>（CHI 2024 / IEEE VR 2025 / IJHCI 2023 / JMIR 2021 / VR 2022 + 4 under review）+ <b>4 个 active 在投/在写项目</b>。<b>VBVR — 百万规模 video reasoning dataset</b> 2026.02 发布。<b>CHI 2026 Session Chair</b>。
+          </p>
+          <p>
+            <b>📦 当前 in-flight (intern apps 主弹药)</b>：
+            <ul style={{ margin: "0.3em 0 0.3em 1.5em" }}>
+              <li><b>Med-VR Pipelines</b> — 165 live pipelines · <b>131,494 samples</b> · 162 raw medical imaging datasets · live dashboard <code>vm-dataset.com</code> · 配 VBVR arXiv 2602.20159。</li>
+              <li><b>MindFrame</b> (NEW 2026-05-12) — VBVR 5 维 + Theory of Mind 第 6 维 social reasoning benchmark · 双 pipeline (synthetic VBVR DataFactory + ethnographic co-design) · target <b>CHI 2027 / NeurIPS 2026</b>。</li>
+              <li><b>Murmur</b> (NEW 2026-05-01) — Ambient 音乐 × IMU 手部 jitter peripheral regulation · pilot 已 finalize · target <b>CHI 2027 Full Paper</b> + CHI 2026 LBW fallback。</li>
+              <li><b>AD Wearable Glove Pipeline</b> — generator v2.1 完成 (5 virtual patients × 30 days = 570 sensor CSVs + 450 EMA + 25 weekly surveys + 4 BPSD events) · wiki harness live · target <b>JMIR / Nature Digital Med</b>。</li>
+              <li><b>PermanenceBench Extension</b> — 168 tasks (110 canonical + 58 new) · 11 classic psychology paradigms · target <b>EMNLP 2026</b>。</li>
+            </ul>
           </p>
           <p>
             <b>🎯 三大研究方向</b>（所有目标公司/lab/PI 必须命中至少一条）：
           </p>
           <ol style={{ margin: "0.5em 0 0.5em 1.5em" }}>
-            <li><b>Video reasoning</b> — VBVR 是主作品；对接 VLM / video LLM / clinical video reasoning。<i>fit signal</i>: 已有 dataset + benchmark 实证产出。</li>
-            <li><b>Multi-agent healthcare</b> — AD wearable glove 的 7-agent 流水线（Analyzer + Physio/Behavior/Clinical Agent + Narrator）；对接 agentic clinical AI / wearable monitoring / healthcare LLM。<i>fit signal</i>: 已有 generator (n=112 校准) + pipeline 实现 + Imperial Hamlyn 医工背景背书。</li>
-            <li><b>Voice analysis / voice interaction</b> — AdaptiveVoice (CHI 2024) + AdaptiveCopilot (IEEE VR 2025) 系列；对接 conversational AI / voice UI / cognitive-load-aware speech ML。<i>fit signal</i>: CHI 顶会 anchor + adaptive interaction 系统化方法论。</li>
+            <li><b>Video reasoning</b> — VBVR 主作品 + Med-VR 131K samples + MindFrame ToM 扩展 + PermanenceBench 168 tasks；对接 VLM / video LLM / clinical video reasoning。<i>fit signal</i>: 实证 dataset + benchmark 产出量已经 <b>明显高于</b>同 cohort PhD Y1 平均水平。</li>
+            <li><b>Multi-agent healthcare</b> — AD wearable glove 7-agent 流水线（Analyzer + Physio/Behavior/Clinical Agent + Narrator）+ synthetic generator v2.1 (570 CSVs + BPSD events) + Hamlyn 医工背景；对接 agentic clinical AI / wearable monitoring / healthcare LLM。<i>fit signal</i>: 端到端 pipeline 实现 + 多模态合成 + Burdet/Ma 临床推荐人 = <b>稀缺差异化</b>。</li>
+            <li><b>Voice / multimodal interaction</b> — AdaptiveVoice (CHI 2024) + AdaptiveCopilot (IEEE VR 2025) + Murmur (music × IMU ambient regulation, in CHI 2027 pipeline)；对接 conversational AI / voice UI / cognitive-load-aware speech ML / ambient sensing。<i>fit signal</i>: CHI 顶会 anchor + adaptive interaction × ambient 双线方法论。</li>
           </ol>
           <p>
             <b>🏫 学校定位</b>：Imperial College London = QS 全球 #2 / EECS Top 10；Hamlyn Centre 是 surgical robotics / medical HCI 世界顶尖 lab。Burdet 是 neuro-rehab + haptics 领域标杆。对 US/UK hiring committee 的 brand weight = upper tier R1，与 Stanford/CMU/MIT 同档对话。<b>Hamlyn × NYU × Liverpool 三段海外训练</b>叠加 video + voice + wearable healthcare 跨学科 — 在同年级 HCI PhD 里属于<b>稀缺差异化 profile</b>。
